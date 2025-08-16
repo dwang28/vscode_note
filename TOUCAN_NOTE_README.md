@@ -21,6 +21,25 @@ open "../VSCode-darwin-arm64/Toucan.app"
 open ../VSCode-darwin-arm64/Toucan.app
 ```
 
+### Install as System Application
+
+To install Toucan so it appears in Launchpad and behaves like any other macOS app:
+
+```bash
+# Copy the app to your Applications folder
+cp -R "../VSCode-darwin-arm64/Toucan.app" "/Applications/"
+
+# Clear icon cache to ensure proper display
+sudo rm -rf /Library/Caches/com.apple.iconservices.store
+killall Dock
+```
+
+After installation:
+- ✅ **Launchpad**: App will appear in Launchpad
+- ✅ **Spotlight**: You can search "Toucan" in Spotlight
+- ✅ **Dock**: You can pin it to your dock
+- ✅ **System Integration**: Behaves like any native macOS app
+
 ### Development Mode
 
 ```bash
