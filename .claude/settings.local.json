@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(npm run compile:*)",
+      "Bash(plutil:*)",
+      "Bash(mv:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "defaultMode": "acceptEdits",
+    "additionalDirectories": [
+      "/Users/dazhenwang/Documents/workspace/VSCode-darwin-arm64/Code - OSS.app/Contents"
+    ]
+  }
+}

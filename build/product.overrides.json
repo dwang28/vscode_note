@@ -1,0 +1,23 @@
+{
+  "nameShort": "Toucan",
+  "nameLong": "Toucan",
+  "applicationName": "toucan-note",
+  "dataFolderName": ".toucan-note",
+  "win32MutexName": "toucannote",
+  "darwinBundleIdentifier": "com.dwang28.toucan-note",
+  "darwinBundleName": "Toucan",
+  "darwinApplicationCategoryType": "public.app-category.productivity",
+  "linuxIconName": "toucan-note",
+  "licenseName": "MIT",
+  "licenseUrl": "https://github.com/dwang28/toucan-note/blob/main/LICENSE.txt",
+  "reportIssueUrl": "https://github.com/dwang28/toucan-note/issues",
+  "urlProtocol": "toucan-note",
+  "win32AppUserModelId": "dwang28.ToucanNote",
+  "win32NameVersion": "Toucan",
+  "win32RegValueName": "ToucanNote",
+  "extensionsGallery": {
+    "serviceUrl": "https://open-vsx.org/vscode/gallery",
+    "itemUrl": "https://open-vsx.org/vscode/item",
+    "resourceUrlTemplate": "https://open-vsx.org/api/{publisher}/{name}/{version}/file/{path}"
+  }
+}
